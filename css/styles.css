@@ -1,0 +1,166 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Color Section */
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: white;
+}
+
+/* Navigation Bar */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.navbar {
+    padding:0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item{
+    padding: 0 1.5rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+.nav-toggle-left{
+    text-align: left;
+}
+
+/* Title Section */
+#title {
+    text-align: left;
+}
+.download-btn{
+    margin: 3rem 1rem 0 0;
+}
+
+.img-col{
+    position: relative;
+}
+.iphone-img {
+    transform: rotate(25deg);
+    width: 50%;
+    padding-top: 1rem;
+    position: absolute;
+    right: 25%;
+    
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+@media (max-width:991px){
+    #title{
+        text-align: center;
+    }
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Features */
+#features{
+    position: relative;
+}
+.feature-text{
+    font-weight: 700;
+}
+
+.features-icon{
+    font-size: 3rem;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.features-div{
+    padding: 1.3rem;
+}
+
+/* Testimonial Section */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.press-img{
+    width: 13%;
+    margin: 1.3rem 1.3rem 3rem ;
+}
+
+/* Pricing Section */
+
+.card-grid{
+    padding: 3% 2%;
+}
+.pricing-text{
+    font-weight: 700;
+}
+.price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Call To Action */
+#cta{
+    padding: 5% 15%;
+}
+.cta-text{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+/* Footer */
+#footer{
+    padding: 3% 15%;
+}
+.sosmed-img{
+    padding: 2% 0.5%;
+}
